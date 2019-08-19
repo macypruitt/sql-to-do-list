@@ -1,0 +1,23 @@
+header {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    display: block;
+    width: 800px;
+    text-align: center;
+    
+}
+
+table {
+    width:100%;
+}
+
+#addTask {
+    background-color: aquamarine;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
