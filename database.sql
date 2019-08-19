@@ -1,0 +1,1 @@
+CREATE TABLE "todolist" ( "id" serial primary key, "task" varchar(150) not null, "status" varchar(13) );
