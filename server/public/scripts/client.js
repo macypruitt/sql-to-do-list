@@ -59,13 +59,14 @@ function renderTasks(response){
     for (let i=0; i<taskArray.length; i++){
         let task = taskArray[i];
         
-        $('#js-viewtasks').append(`<tr><td>${task.task}</td>`);
+        $('#js-viewtasks').append(`<tr>`);
+        $('#js-viewtasks').append(`<td>${task.task}</td>`);
        
         if(task.status =='completed'){
-            $('#js-viewtasks').append(`<td style="background-color: blue">completed</td>`)
+            $('#js-viewtasks').append(`<td style="background-color: lightgreen">completed</td>`)
         } else {
-            $('#js-viewtasks').append(`<td>incomplete</td>`);
-            $('#js-viewtasks').append(`<td><button class="js-btn-complete btn" data-id="${task.id}">Complete</button></td>`);
+           
+            $('#js-viewtasks').append(`<td>incomplete <button class="js-btn-complete btn btn-success" data-id="${task.id}">&#x2714;</button></td>`);
         }
 
     $('#js-viewtasks').append(`<td><button class="js-btn-delete btn" data-id="${task.id}">Delete</button></td></tr>`)

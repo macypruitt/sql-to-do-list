@@ -14,6 +14,11 @@ table {
     width:100%;
 }
 
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #5b6e5b;
+}
+
 #addTask {
     background-color: aquamarine;
     align-content: center;
@@ -21,3 +26,14 @@ table {
     padding: 10px;
 }
 
+.modify {
+    width: 20%
+}
+
+.status {
+    width: 30%;
+}
+
+.task {
+    width: 50%;
+}
