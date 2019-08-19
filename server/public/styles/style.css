@@ -36,4 +36,5 @@ th, td {
 
 .task {
     width: 50%;
+    text-align: left;
 }
